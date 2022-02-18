@@ -30,7 +30,7 @@ router.post('/shorten', async (req, res) => {
                     shortened:generated,
                     longUrl: req.body.longUrl,
                     shortUrl: baseUrl + '/' + generated
-                    //date: new Date()//test
+                    //date: new Date()
                 })
 
                 
